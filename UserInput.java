@@ -7,12 +7,20 @@ class UserInput {
 		System.out.print("Please enter your name: ");
 		name = scan.next();
 		System.out.println("Your name is " + name);
-		
+		                                         
 		System.out.println("**********");
 		
 		int marks = 0;
-		System.out.print("Please enter your marks");
+		System.out.print("Please enter your maths marks");
 		marks = scan.nextInt();
-		System.out.println("Your marksis " + marks);
+		System.out.println("Your maths marks is " + marks);
+		 
+		Scanner scan = new Scanner(System.in);
+		String name = "";
+		System.out.print("Please enter your name : ");
+		name = scan.next();
+		System.out.println("Your name is " + name);
+		
+		System.out.println("**********");
 	}
 }
